@@ -1,0 +1,15 @@
+EXEC=~/work/Dropbox-Uploader/dropbox_uploader.sh
+# with trailing / (slash)
+# local directory that transmission watches for changes
+# parent directory of watchdir
+PARENT_DIR=~/torrents/watchdir
+REMOTE_TOP_PARENT=framboesa
+# dropbox remote directory that holds the files
+REMOTE_PARENT_DIR=$REMOTE_TOP_PARENT/watchdir
+# dropbox added directory that holds all added files
+REMOTE_ADDED_DIR=$REMOTE_TOP_PARENT/added
+#
+ADDED_LOG=$PARENT_DIR/../added.json
+COMPLETED_LOG=$PARENT_DIR/../completed.json
+#
+SUFFIX=added
